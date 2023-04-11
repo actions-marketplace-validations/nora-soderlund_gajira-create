@@ -61,6 +61,15 @@ module.exports = class {
       })
     }
 
+    if (argv.sprint) {
+      providedFields.push({
+        key: 'sprint',
+        value: {
+          name: argv.sprint,
+        },
+      })
+    }
+
     if (argv.fields) {
       providedFields = [...providedFields, ...this.transformFields(argv.fields)]
     }

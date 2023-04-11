@@ -1,4 +1,4 @@
-name: Jira Create issue
+name: Jira Create issue with sprint support
 description: Create a new Jira issue
 branding:
   icon: 'check-square'
